@@ -2,9 +2,9 @@ name: CI - Tests and Docker Build
 
 on:
   push:
-    branches: [main]
+    branches: [ "master" ]
   pull_request:
-    branches: [main]
+    branches: [ "master" ]
 
 env:
   POETRY_VERSION: 1.8.2
